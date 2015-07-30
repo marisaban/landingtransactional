@@ -1,0 +1,198 @@
+---
+layout: base
+title: Transactional Email
+---
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<style type="text/css">
+	.header {
+		color: white;
+	}
+	.btn-line-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+	#content {
+		text-align: center;
+		font-size: 34px;
+	}
+
+	#headlist {
+		font-size: 29px;
+		color: white;
+		list-style: none;
+	}
+
+	 ul li a:hover {
+		color: orange;
+	}
+
+	.btn-xl {  
+    padding: 15px 22px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 6px;
+	}
+
+</style>
+
+<section style="background-color:#34c6a7; margin: 0 !important;">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-center">
+					<h1 class="header" style="font-size: 55px; line-height: 65px;">Transactional Emails</h1>
+					<h2 class="header">What they are, why they matter and how they're sent</h2>
+					<div class="row" style="margin-top: 50px; margin-bottom:-167px;">
+						<div class="col-md-6">
+						<h1 class="header" style="margin-top: 50px; line-height: 40px; margin-left: 20px; font-size: 40px;">Transactional emails are: </h1>
+							<ul id="headlist">
+<!----hide---->					<li id="hide"><button class="btn btn-line-white btn-xl" style="margin-top: 									35px;">Welcome emails</button></li>
+								<li id="hide2"><button class="btn btn-line-white btn-xl" style="margin-top: 25px;">Notification emails</button></li>
+								<li id="hide3"><button class="btn btn-line-white btn-xl" style="margin-top: 25px;">Receipt emails</button></li>
+							</ul>
+						</div>
+				
+<!---- header image-->
+					<div class="col-md-6">
+						<img class="swapWel" src="{{ '/temail2.png' | prepend: site.assets_images }}" style="width: 635px; height: 550px; margin-left: 20px;">
+
+<!---- swapFor Welcome image SHOW-->						
+						<img class="swapWel2" id="show" src="{{ '/Welemail.png' | prepend: site.assets_images }}" style="width: 645px; height: 500px; margin-left: 20px; margin-bottom: 55px;">
+<!---- swapFor Notif image SHOW-->
+						<img class="swapWel3" src="{{ '/notemail.png' | prepend: site.assets_images }}" style="width: 645px; height: 500px; margin-left: 20px; margin-bottom: 55px;">
+<!---- swapFor Receipt image SHOW-->
+						<img class="swapWel4" src="{{ '/reemail.png' | prepend: site.assets_images }}" style="width: 645px; height: 500px; margin-left: 20px; margin-bottom: 55px;">
+					</div>
+				</div><!--2nd row-->
+			</div><!--col-md-12-->
+		</div>
+	</div>
+</section>
+	
+<section class="v2">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="text-center" style="color: #555555;">The importance of transactional emails</h1>
+			</div>
+		</div><!--1st row-->
+		<div class="row text-center" style="margin-top: 55px;">
+				<div class="col-sm-6">
+					<h2 id="content" style="color:#34c6a7;">Welcome email </h2>
+					<h3 style="margin-top:-40px;">Generate <a href="http://www.experian.com/assets/cheetahmail/white-papers/welcome-email-report.pdf" style="color: #f7931d;">4x more opens and 5x times more clicks </a>than your average marketing email. </h3>
+				</div>
+				<div class="col-sm-6" style="margin-top: 25px;">
+					<img src="{{ '/welcome.svg' | prepend: site.assets_images }}" style="width: 200px; margin-top: -55px;">
+				</div>
+			</div>
+	<!----notification---->
+			<div class="row text-center">
+				<div class="col-sm-6" style="margin-top: 55px;">
+					<h2 id="content" style="color:#34c6a7;">Notification email</h2>
+					<h3 style="margin-top:-40px;">Excellent retention tool and generates <a style="color: #f7931d;" href="https://sendgrid.com/blog/why-the-notification-is-the-most-important-email-you-can-send-for-growth/">second highest user engagement rates</a>. </h3>
+
+				</div>
+				<div class="col-sm-6">
+					<img src="{{ '/notif.svg' | prepend: site.assets_images }}" style="width: 200px; margin-top: 30px;">
+				</div>
+			</div>
+	<!----receipt---->
+			<div class="row text-center">
+				<div class="col-sm-6" style="margin-top: 45px;">
+					<h2 id="content" style="color:#34c6a7;">Receipt email</h2>
+					<h3 style="margin-top:-40px;">64% of consumers consider transaction confirmations the <a style="color: #f7931d;" href="https://litmus.com/blog/best-practices-for-optimizing-order-confirmation-emails"> most valuable messages </a>in their inbox.</h3>
+				</div>
+				<div class="col-sm-6" style="margin-top: 25px;">
+					<img src="{{ '/receipt.svg' | prepend: site.assets_images }}" style="width: 200px;">
+				</div>
+			</div><!--row-->
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="v2 mini" style="background-color:#34c6a7; margin: 0 !important;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<blockquote class="text-center" style="color:white;">
+							<h3>The most effective emails you can send are notifications</h3>
+							<small style="color:white;">Alex Shultz</small>
+						</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="v2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="text-center" style="color: #555555;">How transactional emails are sent</h1>
+				<div class="hidden-xs" style="padding-top: 15px">
+          <img src="{{ '/landing/how_it_works.png' | prepend: site.assets_images }}">
+        </div>
+        <div class="visible-xs text-center text-light text-xl">
+          <p class="isolated-super-compact border-top">
+            1. Your product, service, or app triggers an API call to Sendwithus.
+            <img class="margin-top-double" src="{{ '/landing/how_it_works_1.png' | prepend: site.assets_images }}">
+          </p>
+          <p class="isolated-super-compact border-top">
+            2. Sendwithus renders your email for delivery.
+            <img class="margin-top-double" src="{{ '/landing/how_it_works_2.png' | prepend: site.assets_images }}">
+          </p>
+          <p class="isolated-super-compact border-top">
+            3. We deliver the email to your ESP and your email gets sent.
+            <img class="margin-top-double" src="{{ '/landing/how_it_works_3.png' | prepend: site.assets_images }}">
+          </p>
+        </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="v2" style="background-color:#34c6a7;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 style="color:white;">Use send<span class="text-orange">with</span>us to send your transactional emails.</h1>
+				<button class="btn btn-orange btn-lg" style="margin-bottom: 40px; ">Get Started</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+//swapWel = original image 
+//hide = welcome link
+//swapWel2 = welcome image
+//show = 
+	$(document).ready(function(){
+        $(".swapWel2").hide();
+        $(".swapWel3").hide();
+        $(".swapWel4").hide();
+    $("#hide").click(function(){
+        $(".swapWel2").show();
+        $(".swapWel").hide();
+        $(".swapWel3").hide();
+        $(".swapWel4").hide();
+    });
+    	
+    $("#hide2").click(function(){
+    	$(".swapWel").hide();
+        $(".swapWel2").hide();
+        $(".swapWel3").show();
+        $(".swapWel4").hide();
+    });
+
+    $("#hide3").click(function(){
+    	$(".swapWel").hide();
+        $(".swapWel2").hide();
+        $(".swapWel3").hide();
+        $(".swapWel4").show();
+    })
+});
+</script>
