@@ -1,0 +1,212 @@
+---
+layout: base
+title: Transactional Email
+
+# Body class to target with JS
+class: transactionalemail
+---
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+
+<section class="abovethefold" style="background-color:#34c6a7; margin-right: -15px;">
+	<div class="container">
+		<div class="row" style="margin-right: 25px;">
+			<div class="col-md-12 text-center">
+                <h1 class="header" id="titleheader"><span style="font-size: 55px; line-height: 65px;">Transactional Emails</span></h1>
+                <h2 class="header" id="whatwhyhow">What they are, why they matter and how they're sent</h2>
+            </div>
+        </div>
+
+        <div class="row text-center" id="emailbtns" style="margin-top: 50px; margin-bottom:-167px;">
+            <div class="col-md-6">
+                <h1 class="header" style="margin-top: 50px; line-height: 40px; margin-left: 20px; font-size: 40px;">You're already sending: </h1>
+                <!--- Carousel Buttons -->
+                <ul id="headlist">
+                    <li><button class="btn btn-line-white btn-xl active" style="margin-top:35px; width: 250px;">Welcome emails</button></li>
+                    <li><button class="btn btn-line-white btn-xl" style="margin-top: 25px; width: 250px;">Notification emails</button></li>
+                    <li><button class="btn btn-line-white btn-xl" style="margin-top: 25px; margin-bottom: 25px; width: 250px;">Receipt emails</button></li>
+                </ul>
+            </div>			
+
+                <!--- header image -->
+            <div class="col-lg-6" id="rightHeader">
+                <div id="transactional_email_carousel" class="carousel slide" style="width: 700px; overflow: hidden; right: 25px; height: 630px;">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active"><img src="{{ '/Welemail.png' | prepend: site.assets_images }}" /></div>
+                        <div class="item"><img src="{{ '/notemail.png' | prepend: site.assets_images }}" /></div>
+                        <div class="item"><img class="receipt" src="{{ '/reemail.png' | prepend: site.assets_images }}" /></div>
+                    </div>
+                </div>
+            </div><!--col-md-6-->
+		</div>
+	</div>
+</section>
+	
+<section class="v2" id="importance" style="margin-right: 10px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" id="important">
+				<h1 class="text-center" id="importheader" style="color: #555555;">The importance of transactional emails</h1>
+			</div>
+		</div><!--1st row-->
+		<div class="row text-center" style="margin-top: 55px; margin-left: 20px;">
+				<div class="col-sm-6">
+					<h2 id="content" style="color:#34c6a7;">Welcome email </h2>
+					<h3 style="margin-top:-40px;">Generate <a href="http://www.experian.com/assets/cheetahmail/white-papers/welcome-email-report.pdf" style="color: #f7931d;">4x more opens and 5x times more clicks </a> than your average marketing email. </h3>
+				</div>
+				<div class="col-sm-6" style="margin-top: 25px;">
+					<img src="{{ '/welcome.svg' | prepend: site.assets_images }}" style="width: 200px; margin-top: -15px;">
+				</div>
+			</div>
+	<!----notification---->
+			<div class="row text-center" style="margin-left: 20px;">
+				<div class="col-sm-6" style="margin-top: 55px;">
+					<h2 id="content" style="color:#34c6a7;">Notification email</h2>
+					<h3 style="margin-top:-40px;">Excellent retention tool and generates <a style="color: #f7931d;" href="https://sendgrid.com/blog/why-the-notification-is-the-most-important-email-you-can-send-for-growth/">second highest user engagement rates</a>. </h3>
+
+				</div>
+				<div class="col-sm-6">
+					<img src="{{ '/notif.svg' | prepend: site.assets_images }}" style="width: 200px; margin-top: 30px;">
+				</div>
+			</div>
+	<!----receipt---->
+			<div class="row text-center" style="margin-left: 20px;">
+				<div class="col-sm-6" style="margin-top: 45px;">
+					<h2 id="content" style="color:#34c6a7;">Receipt email</h2>
+					<h3 style="margin-top:-40px;">64% of consumers consider transaction confirmations the <a style="color: #f7931d;" href="https://litmus.com/blog/best-practices-for-optimizing-order-confirmation-emails"> most valuable messages </a> in their inbox.</h3>
+				</div>
+				<div class="col-sm-6" style="margin-top: 25px;">
+					<img src="{{ '/receipt.svg' | prepend: site.assets_images }}" style="width: 200px; margin-top: 15px;">
+				</div>
+			</div><!--row-->
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="v2 mini" id="quote" style="background-color:#34c6a7; margin-right: -50px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="color:white;">
+					<blockquote id="quotetext" style="display: block; margin-right: 95px;">
+				 <img src="{{ '/adii.png' | prepend: site.assets_images }}" class="img-circle" style="height:175px; margin-right: 25px; float: left;">
+				 			<br><br>
+							 Customers are engaging with receipts and transactional emails, so make it a good experience for them and use them to nuture your relationship.
+							 <br><br>
+							<small style="color:white; float: right;">Adii Pienaar <br> Woothemes Co-Founder</small>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="v2" id="examples">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1 class="text-center" style="color: #555555; margin-bottom: 55px;" id="howitworks">How it works</h1>
+				<h2 class="text-center" id="bobjanedave" style="font-size: 35px; color: #34c6a7;"><strong>Welcome emails</strong></h2>
+			</div>
+<!--welcome--><div class="row text-center" style="margin-bottom: 55px; margin-left: 50px;">
+				<div class="col-md-3 text-center" >
+          			<img src="{{ '/bobsignsup.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Bob signs up</h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/bobwelcome.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Bob receives <span style="color: #34c6a7;">welcome email</span></h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/bobaccount.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Bob activates account</h3>
+        		</div>
+        	</div><!--2nd row-->
+        	<div class="row">
+        		<div class="col-md-12">
+        			<h2 class="text-center" id="bobjanedave" style="font-size: 35px; color: #34c6a7;"><strong>Notification emails</strong></h2>
+        		</div>
+        	</div>
+<!----jane----><div class="row" style="margin-bottom: 55px; margin-left: 50px;">
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/janeheart.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Bob hearts Jane's photo</h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/janenot.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Jane receives a <span style="color: #34c6a7;">notification email</span></h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/janetalk.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Jane messages Bob</h3>
+        		</div>
+        	</div><!--3rd row-->
+        	<div class="row">
+        		<div class="col-md-12">
+        			<h2 class="text-center" id="bobjanedave" style="font-size: 35px; color: #34c6a7;"><strong> Receipt emails</strong></h2>
+        		</div>
+        	</div>
+			<div class="row" style=" margin-bottom: 55px; margin-left: 50px;">
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/davebuy.svg' | prepend: site.assets_images }}" style="height: 180px;">
+          			<h3>Dave bought a coat online</h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/davereceipt.svg' | prepend: site.assets_images }}" style="height: 180px;">
+          			<h3>Dave receives his <span style="color: #34c6a7;">receipt email </span> with coupons inside</h3>
+        		</div>
+        		<div class="col-md-1 text-center" >
+          			<img src="{{ '/arrow-right.svg' | prepend: site.assets_images }}" style="width: 100px; margin-top: 100px; margin-bottom: 100px;">
+        		</div>
+        		<div class="col-md-3 text-center" >
+          			<img src="{{ '/daveshare.svg' | prepend: site.assets_images }}" style="height: 180px; ">
+          			<h3>Dave shares coupons with friends</h3>
+        		</div>
+        	</div><!--4th row-->
+		</div><!-- 1st row-->
+	</div>
+</section>
+
+<section class="v2" id="cta" style="margin-top: -100px;">
+	<div class="container-fluid">
+		<div class="row">
+			<hr style="background-color:#fff; border-top: 15px solid #34c6a7; margin-bottom: 100px; margin-right: -50px;">
+			<div class="col-md-12 text-center">
+				<h1>How does send<span style="color:#f7931d;">with</span>us help?</h1>
+					<div class="row">
+						<div class="col-md-4">
+							<img src="{{ '/template.png' | prepend: site.assets_images }}" style="height: 200px;">
+							<br>
+							<a href="https://www.sendwithus.com/marketers"><button class="btn btn-transactional btn-lg" style="margin-bottom: 40px; margin-top: 35px; "><span style="color: white;">Templates</span></button></a>
+							
+						</div>
+						<div class="col-md-4">
+							<img src="{{ '/ab.png' | prepend: site.assets_images }}" style="height: 200px;">
+							<br>
+							<a href="https://www.sendwithus.com/ab-testing"><button class="btn btn-transactional btn-lg" style="margin-bottom: 40px; margin-top: 35px; "><span style="color: white;">AB Tests</span></button></a>
+						</div>
+						<div class="col-md-4">
+							<img src="{{ '/gear.svg' | prepend: site.assets_images }}" style="height: 200px;">
+							<br>
+							<a href="https://www.sendwithus.com/features"><button class="btn btn-transactional btn-lg" style="margin-bottom: 40px; margin-top: 35px; "><span style="color: white;">Automation</span></button></a>
+						</div>
+					</div>
+				<a href="https://app.sendwithus.com/signup"><button class="btn btn-orange btn-xl" style="margin-bottom: 40px; margin-top: 35px; ">Try It Now</button></a>
+			</div>
+		</div>
+	</div>
+</section>
+
