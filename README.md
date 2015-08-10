@@ -1,2 +1,2 @@
 # landingtransactional
-transactional email landing page, not published yet as of July 30th, 2015
+transactional email landing page, published as of August 10th 
